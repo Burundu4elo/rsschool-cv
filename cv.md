@@ -4,11 +4,11 @@
 
 ## My Contact Info
 
-- **Email**: burunduk-one@yandex
+- **Email**: <burunduk-one@yandex>
 - **Phone**: +7 909 093 71 97
 - **Telegram**: @Burundu4elo
-- **Site**: [My site-portfilio in Russian][linkMySite]
 - **City**: Magnitogorsk (Russian Federation)
+- **Site**: [https://seo-burunduk.ru](seo-burunduk.ru)
 
 ****
 
@@ -64,6 +64,7 @@ function uniqueValueFromArray(array) {
 ## Experience
 
 I am working as a Freelancer since 2014 at different sites.
+**Site**: [My site-portfolio in Russian][1]
 
 ****
 
@@ -72,9 +73,7 @@ I am working as a Freelancer since 2014 at different sites.
 - Russian - native speaker
 - English:
   - A2 by EPAM test
-  - B2 by EF SET test ([Result of test][linkEFSETTest])
+  - B2 by EF SET test ([Official certificate][2])
 
-
-
-  [linkMySite][https://seo-burunduk.ru]
-  [linkEFSETTest][https://www.efset.org/cert/FXnP3Q]
+  [1]: https://seo-burunduk.ru
+  [2]: https://www.efset.org/cert/FXnP3Q
