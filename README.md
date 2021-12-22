@@ -1,1 +1,1 @@
-https://Burundu4elo.github.io/rsschool-cv/
+# rsschool-cv
