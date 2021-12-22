@@ -7,6 +7,7 @@
 - **Email**: burunduk-one@yandex
 - **Phone**: +7 909 093 71 97
 - **Telegram**: @Burundu4elo
+- **Site**: [My site-portfilio in Russian][linkMySite]
 - **City**: Magnitogorsk (Russian Federation)
 
 ****
@@ -71,5 +72,9 @@ I am working as a Freelancer since 2014 at different sites.
 - Russian - native speaker
 - English:
   - A2 by EPAM test
-  - B2 by EF SET test
-  
+  - B2 by EF SET test ([Result of test][linkEFSETTest])
+
+
+
+  [linkMySite][https://seo-burunduk.ru]
+  [linkEFSETTest][https://www.efset.org/cert/FXnP3Q]
