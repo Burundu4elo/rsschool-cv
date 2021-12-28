@@ -143,6 +143,40 @@ svg {
   transform: scaleX(1);
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  color: var(--dark);
+}
+
+.footer__link{
+  text-decoration: none;
+  color:var(--dark);
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.github-link:hover{
+  text-decoration: underline;
+}
+
+.github-link__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.rsschool-link__img{
+  height: 32px;
+  width: auto;
+}
+
 @media screen and (max-width: 1280px) {
   .container {
     padding-left: 1.5rem;
