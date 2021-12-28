@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="320"/> 
     <title>Igor Mescheryakov CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,21 +13,55 @@
     <link rel="icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="wrapper">
-  <header class="header container">
-    <div class="header__logo">Igor Mescheryakov CV</div>
-    <nav class="header__nav">
-      <ul class="menu">
-        <li class="menu__item"><a href="#contacts" class="menu__link" title="Go to Contacts">Contacts</a></li>
-        <li class="menu__item"><a href="#summary" class="menu__link" title="Go to Summary">Summary</a></li>
-        <li class="menu__item"><a href="#skills" class="menu__link" title="Go to Skills">Skills</a></li>
-        <li class="menu__item"><a href="#code" class="menu__link" title="Go to Code">Code</a></li>
-        <li class="menu__item"><a href="#courses" class="menu__link" title="Go to Courses">Courses</a></li>
-        <li class="menu__item"><a href="#projects" class="menu__link" title="Go to Projects">Projects</a></li>
-        <li class="menu__item"><a href="#education" class="menu__link" class="#education">Education</a></li>
-        <li class="menu__item"><a href="#english" class="menu__link" title="Go to English">English</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="header container">
+        <div class="header__logo logo">
+            <div class="logo__text">Igor Mescheryakov</div>
+            <div class="logo__figure">CV</div>
+        </div>
+        <nav class="header__nav">
+            <a href="#" class="burger">
+              <svg class="burger__icon" viewBox="0 0 250.579 250.579">
+                <use xlink:href="#burger"></use>
+              </svg>
+            </a>
+            <ul class="menu">
+                <li class="menu__item close">
+                  <svg class="close__icon" viewBox="0 0 12 12" >
+                    <use xlink:href="#close"></use>
+                  </svg>
+                </li>
+                <li class="menu__item"><a href="#contacts" class="menu__link" title="Go to Contacts">Contacts</a></li>
+                <li class="menu__item"><a href="#summary" class="menu__link" title="Go to Summary">Summary</a></li>
+                <li class="menu__item"><a href="#skills" class="menu__link" title="Go to Skills">Skills</a></li>
+                <li class="menu__item"><a href="#code" class="menu__link" title="Go to Code">Code</a></li>
+                <li class="menu__item"><a href="#courses" class="menu__link" title="Go to Courses">Courses</a></li>
+                <li class="menu__item"><a href="#projects" class="menu__link" title="Go to Projects">Projects</a></li>
+                <li class="menu__item"><a href="#education" class="menu__link" class="#education" title="Go to Education">Education</a></li>
+                <li class="menu__item"><a href="#english" class="menu__link" title="Go to English">English</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <svg class="svg-hidden" xmlns="http://www.w3.org/2000/svg" hidden>
+      <symbol id="burger">
+        <g id="Menu">
+          <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M22.373,76.068h205.832c12.356,0,22.374-10.017,22.374-22.373
+            c0-12.356-10.017-22.373-22.374-22.373H22.373C10.017,31.323,0,41.339,0,53.696C0,66.052,10.017,76.068,22.373,76.068z
+             M228.205,102.916H22.373C10.017,102.916,0,112.933,0,125.289c0,12.357,10.017,22.373,22.373,22.373h205.832
+            c12.356,0,22.374-10.016,22.374-22.373C250.579,112.933,240.561,102.916,228.205,102.916z M228.205,174.51H22.373
+            C10.017,174.51,0,184.526,0,196.883c0,12.356,10.017,22.373,22.373,22.373h205.832c12.356,0,22.374-10.017,22.374-22.373
+            C250.579,184.526,240.561,174.51,228.205,174.51z"/>
+        </g>
+      </symbol>
+
+      <symbol id="close">
+        <path fill-rule="evenodd" d="M8.41421356,7 L10.5355339,4.87867966 C10.9260582,4.48815536 10.9260582,3.85499039 10.5355339,3.46446609 C10.1450096,3.0739418 9.51184464,3.0739418 9.12132034,3.46446609 L7,5.58578644 L4.87867966,3.46446609 C4.48815536,3.0739418 3.85499039,3.0739418 3.46446609,3.46446609 C3.0739418,3.85499039 3.0739418,4.48815536 3.46446609,4.87867966 L5.58578644,7 L3.46446609,9.12132034 C3.0739418,9.51184464 3.0739418,10.1450096 3.46446609,10.5355339 C3.85499039,10.9260582 4.48815536,10.9260582 4.87867966,10.5355339 L7,8.41421356 L9.12132034,10.5355339 C9.51184464,10.9260582 10.1450096,10.9260582 10.5355339,10.5355339 C10.9260582,10.1450096 10.9260582,9.51184464 10.5355339,9.12132034 L8.41421356,7 Z"/>
+      </symbol>
+    </svg>
+
+    <script src="index.js" defer></script>
 </body>
 </html>

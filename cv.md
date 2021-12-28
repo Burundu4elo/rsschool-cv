@@ -14,13 +14,13 @@
 
 ## About me
 
-I am 30 years old, I work like a freelancer since 2014. I starded work with knowledge about web-design, HTML and CSS. Then i learned JavaScript and PHP on basic level. I made templates for Sites on CMS Wordpress and similiar others. Between 2017 and 2019 i had a pause because of my depression and Families problems. But then i recovered. Now i know many things about Psychologic, Psychotherapy and Health of Mind. I have learned SASS, LESS, WebPack, Git and others interesting instruments and technology last two years. Now i continue working as a Freelancer, but a want to become a strong Frontender, and then a Fullstack Programmer.
+I am 30 years old, I work as a freelancer since 2014. I started work with knowledge about web design, HTML, and CSS. Then I learned JavaScript and PHP on a basic level. I made templates for Sites on CMS WordPress and similar others. Between 2017 and 2019 I had a pause because of my depression and Families problems. But then I recovered. Now I know many things about Psychologic, Psychotherapy, and Health of the Mind. I had learned SASS, LESS, WebPack, Git, and other interesting instruments and technology last two years. Now I continue working as a Freelancer, but a want to become a strong Frontend, and then a Fullstack Programmer.
 
 ### My strengths
 
 1. I am quick learn
 2. My softskils is good
-3. I enjoy by learnin something new
+3. I enjoy by learning something new
 4. I am purposeful and stress resistant
 5. I'm punctual in everything
 6. I know how to organisation myself
