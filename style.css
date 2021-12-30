@@ -258,7 +258,7 @@ a:hover {
 
 .flex_start a {
   font-weight: 800;
-  font-size: 1.125;
+  font-size: 1.125rem;
   color: var(--light-phiolet);
 }
 
@@ -364,7 +364,7 @@ a:hover {
   line-height: 150%;
 }
 
-.cv-block__quote span {
+.cv-block__quote > span {
   color: var(--light-phiolet);
   font-size: 2rem;
   font-weight: 800;
@@ -434,10 +434,12 @@ a:hover {
   }
 
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
   }
 
-  h3 {}
+  h3 {
+    font-size: 1.5rem;
+  }
 
   .intro-block__title {
     text-align: center;
