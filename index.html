@@ -1,78 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <meta name="MobileOptimized" content="320" />
+    <title>Igor Mescheryakov CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Igor Mescheryakov</h1>
-<hr>
-<h2 id="my-contact-info">My Contact Info</h2>
-<ul>
-<li><strong>Email</strong>: <a href="mailto:burunduk-one@yandex.ru">burunduk-one@yandex.ru</a></li>
-<li><strong>Phone</strong>: +7 909 093 71 97</li>
-<li><strong>Telegram</strong>: @Burundu4elo</li>
-<li><strong>City</strong>: Magnitogorsk (Russian Federation)</li>
-<li><strong>Site</strong>: <a href="https://seo-burunduk.ru">seo-burunduk.ru</a></li>
-</ul>
-<hr>
-<h2>About me</h2>
-<p>I am 30 years old, I work like a freelancer since 2014. I starded work with knowledge about web-design, HTML and CSS. Then i learned JavaScript and PHP on basic level. I made templates for Sites on CMS Wordpress and similiar others. Between 2017 and 2019 i had a pause because of my depression and Families problems. But then i recovered. Now i know many things about Psychologic, Psychotherapy and Health of Mind. I have learned SASS, LESS, WebPack, Git and others interesting instruments and technology last two years. Now i continue working as a Freelancer, but a want to become a strong Frontender, and then a Fullstack Programmer.</p>
-<h3>My strengths</h3>
-<ol>
-<li>I am quick learn</li>
-<li>My softskils is good</li>
-<li>I enjoy by learnin something new</li>
-<li>I am purposeful and stress resistant</li>
-<li>I&#39;m punctual in everything</li>
-<li>I know how to organisation myself</li>
-<li>I have working expirence like as Freelancer for several years</li>
-</ol>
-<blockquote>
-<p>what doesn&#39;t kill us makes us stronger</p>
-</blockquote>
-<hr>
-<h2>Skills</h2>
-<ul>
-<li>HTML5</li>
-<li>CSS3 (Bootstrap, SASS/SCSS, LESS, BEM)</li>
-<li>JS ES6+ (basic level +, Gulp, Webpack, Node.js)</li>
-<li>Git, Github</li>
-<li>PHP (bacic level +)</li>
-<li>Figma, Adobe XD, Adobe Photoshop, Adobe Illustration, Adobe After Effects -&gt; for web-developing</li>
-<li>VS Code, WebStorm, PHPStorm</li>
-</ul>
-<hr>
-<h2>Code Example</h2>
-<pre><code class="lang-JavaScript"><span class="hljs-keyword">function</span> uniqueValueFromArray(<span class="hljs-built_in">array</span>) {
-  return <span class="hljs-built_in">array</span>.filter((<span class="hljs-keyword">value</span>, index, <span class="hljs-built_in">array</span>) =&gt; (<span class="hljs-built_in">array</span>.indexOf(<span class="hljs-keyword">value</span>) === index))
-}
-</code></pre>
-<hr>
-<h2>Education</h2>
-<ul>
-<li>Courses on Udemy (PHP, JS)</li>
-<li>Courses on SkyPro (Frontend - in process)</li>
-<li>Courses by Vladilen Minin (JS - in process)</li>
-<li>Courses on JetBrains Academy (Frontend - in process)</li>
-</ul>
-<hr>
-<h2>Experience</h2>
-<p>I am working as a Freelancer since 2014 at different sites.
-<strong>Site</strong>: <a href="https://seo-burunduk.ru">My site-portfolio in Russian</a></p>
-<hr>
-<h2>Languages</h2>
-<ul>
-<li>Russian - native speaker</li>
-<li>English:<ul>
-<li>A2 by EPAM test</li>
-<li>B2 by EF SET test (<a href="https://www.efset.org/cert/FXnP3Q">Official certificate</a>)</li>
-</ul>
-</li>
-</ul>
 
+<body class="wrapper">
+    <header class="header container">
+        <div class="header__logo logo">
+            <div class="logo__text">Igor Mescheryakov</div>
+            <div class="logo__figure">CV</div>
+        </div>
+        <nav class="header__nav">
+            <a href="#" class="burger">
+                <svg class="burger__icon" viewBox="0 0 250.579 250.579">
+                    <use xlink:href="#burger"></use>
+                </svg>
+            </a>
+            <ul class="menu">
+                <li class="menu__item close">
+                    <svg class="close__icon" viewBox="0 0 12 12">
+                        <use xlink:href="#close"></use>
+                    </svg>
+                </li>
+                <li class="menu__item"><a href="#contacts" class="menu__link" title="Go to Contacts">Contacts</a></li>
+                <li class="menu__item"><a href="#summary" class="menu__link" title="Go to Summary">Summary</a></li>
+                <li class="menu__item"><a href="#skills" class="menu__link" title="Go to Skills">Skills</a></li>
+                <li class="menu__item"><a href="#code" class="menu__link" title="Go to Code">Code</a></li>
+                <li class="menu__item"><a href="#courses" class="menu__link" title="Go to Courses">Courses</a></li>
+                <li class="menu__item"><a href="#projects" class="menu__link" title="Go to Projects">Projects</a></li>
+                <li class="menu__item"><a href="#english" class="menu__link" title="Go to English">English</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section id="contacts" class="intro-block container">
+            <div class="intro-block__title">
+                <h1 class="intro-block__text">Igor Mescheryakov CV</h1>
+                <div class="intro-block__info">Web-developer. UX / UI Designer. Freelancer.</div>
+            </div>
+
+            <div class="intro-block__contacts">
+                <p><b>City:</b> Russia, Magnitogorsk</p>
+                <p><b>Phone:</b> <a href="tel:+79090937197" title="My number">+7 909 093 71 97</a></p>
+                <p><b>Telegram:</b> <a href="https://t.me/burundu4elo" title="My telegram">@Burundu4elo</a></p>
+                <p><b>Email:</b> <a href="mailto:burunduk-one@yandex.ru" title="My email">burunduk-one@yandex.ru</a></p>
+            </div>
+        </section>
+        <div class="content-wrapper">
+            <section id="summary" class="cv-block">
+                <div class="cv-block__content cv-block__content_flx">
+                    <div class="cv-block__img">
+                        <img src="assets/img/myself.png" alt="Igor Mescheryakov">
+                    </div>
+                    <div class="cv-block__text">
+                        <h2 class="cv-block__title">Summary</h2>
+                        <p>Hello! My name is Igor. I am 30 years old, I work as a freelancer since 2014. I started work with knowledge about web design, HTML, and CSS. Then I learned JavaScript and PHP on a basic level. I made templates for Sites on CMS WordPress and similar others.</p>
+                        <p>Between 2017 and 2019 I had a pause because of my depression and Families problems. But then I recovered. Now I know many things about Psychologic, Psychotherapy, and Health of the Mind.</p>
+                        <p>Now I have learned SASS, LESS, WebPack, Git, and other interesting instruments and technology last two years. I continue working as a Freelancer, but a want to become a strong Frontend, and then a Fullstack Programmer.</p>
+
+
+                        <h3 class="cv-block__title">My strengths</h3>
+                        <ol>
+                            <li>I am quick learn</li>
+                            <li>My softskils is good</li>
+                            <li>I enjoy by learning something new</li>
+                            <li>I am purposeful and stress resistant</li>
+                            <li>I'm punctual in everything</li>
+                            <li>I know how to organisation myself</li>
+                            <li>I have working expirence like as Freelancer for several years</li>
+                        </ol>
+
+                    </div>
+                </div>
+                <blockquote class="cv-block__quote"><span>"</span>What doesn't kill us makes us stronger<span>"</span></blockquote>
+
+            </section>
+
+            <section id="skills" class="cv-block">
+                <h2 class="cv-block__title">Skills</h2>
+                <div class="cv-block__content">
+                    <div class="flex flex_two-col">
+                        <div class="flex__item">
+                            <h3>Programming Languages and Technologies</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3 (Bootstrap, SASS/SCSS, LESS, BEM)</li>
+                                <li>JS ES6+ (basic level +, Gulp, Webpack, Node.js)</li>
+                                <li>PHP (bacic level +)</li>
+                            </ul>
+                        </div>
+                        <div class="flex__item">
+                            <h3>Tools and Prorgams</h3>
+                            <ul>
+                                <li>Git, Github</li>
+                                <li>Figma, Adobe XD, Adobe Photoshop, Adobe Illustration, Adobe After Effects</li>
+                                <li>VS Code, WebStorm, PHPStorm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="code" class="cv-block">
+                <h2 class="cv-block__title">Code Example</h2>
+                <div class="cv-block__content">
+                    <pre>
+                    <code>function uniqueValueFromArray(array) {
+                        return array.filter((value, index, array) => (array.indexOf(value) === index))
+                      }</code>
+                  </pre>
+                </div>
+            </section>
+
+            <section id="courses" class="cv-block">
+                <h2 class="cv-block__title">Education</h2>
+                <div class="cv-block__content">
+                    <ul>
+                        <li>Courses on Udemy (PHP, JS, React) by Maximilian Schwarzmüller, Vladilen Minin and WebForMySelf </li>
+                        <li>Courses on SkyPro (Frontend - in process)</li>
+                        <li>Courses by Vladilen Minin (JS - in process)</li>
+                        <li>Courses on JetBrains Academy (Frontend - in process)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="projects" class="cv-block">
+                <h2 class="cv-block__title">Experience and Projects</h2>
+                <div class="cv-block__content">
+                    <p>I am working as a Freelancer since 2014 at different sites.</p>
+                    <div class="flex flex_start">
+                        <a href="https://seo-burunduk.ru" title="My Portfolio">My Portfolio in Russian</a>
+                        <a href="https://Burundu4elo.github.io/rsschool-cv/">My CV</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="english" class="cv-block">
+                <h2 class="cv-block__title">Languages</h2>
+                <div class="cv-block__content">
+                    <ul>
+                        <li>Russian - native speaker</li>
+                        <li>English:
+                            <ul>
+                                <li>A2 by EPAM test</li>
+                                <li>B2 by EF SET test. <a href="https://www.efset.org/cert/FXnP3Q" title="Certificate EF SET">Link to Certificate</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer container">
+        <a href="https://github.com/Burundu4elo" class="footer__link" title="Link to GitHub" target="_blank">
+            <figure class="github-link">
+                <svg class="github-link__icon" viewBox="0 0 32 32">
+                    <use xlink:href="#git"></use>
+                </svg>
+                <figcaption class="github-link__text">Burundu4elo</figcaption>
+            </figure>
+        </a>
+        <p class="footer__copy">2022</p>
+        <a href="https://rs.school/js/" class="footer__link rsschool-link" title="Link to RS School" target="_blank">
+            <img src="assets/img/rs_school_js.svg" class="rsschool-link__img" alt="RS School">
+        </a>
+    </footer>
+
+    <svg class="svg-hidden" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="burger">
+            <g id="Menu">
+                <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M22.373,76.068h205.832c12.356,0,22.374-10.017,22.374-22.373
+            c0-12.356-10.017-22.373-22.374-22.373H22.373C10.017,31.323,0,41.339,0,53.696C0,66.052,10.017,76.068,22.373,76.068z
+             M228.205,102.916H22.373C10.017,102.916,0,112.933,0,125.289c0,12.357,10.017,22.373,22.373,22.373h205.832
+            c12.356,0,22.374-10.016,22.374-22.373C250.579,112.933,240.561,102.916,228.205,102.916z M228.205,174.51H22.373
+            C10.017,174.51,0,184.526,0,196.883c0,12.356,10.017,22.373,22.373,22.373h205.832c12.356,0,22.374-10.017,22.374-22.373
+            C250.579,184.526,240.561,174.51,228.205,174.51z" />
+            </g>
+        </symbol>
+
+        <symbol id="close">
+            <path fill-rule="evenodd" d="M8.41421356,7 L10.5355339,4.87867966 C10.9260582,4.48815536 10.9260582,3.85499039 10.5355339,3.46446609 C10.1450096,3.0739418 9.51184464,3.0739418 9.12132034,3.46446609 L7,5.58578644 L4.87867966,3.46446609 C4.48815536,3.0739418 3.85499039,3.0739418 3.46446609,3.46446609 C3.0739418,3.85499039 3.0739418,4.48815536 3.46446609,4.87867966 L5.58578644,7 L3.46446609,9.12132034 C3.0739418,9.51184464 3.0739418,10.1450096 3.46446609,10.5355339 C3.85499039,10.9260582 4.48815536,10.9260582 4.87867966,10.5355339 L7,8.41421356 L9.12132034,10.5355339 C9.51184464,10.9260582 10.1450096,10.9260582 10.5355339,10.5355339 C10.9260582,10.1450096 10.9260582,9.51184464 10.5355339,9.12132034 L8.41421356,7 Z" />
+        </symbol>
+
+        <symbol id="git">
+            <path clip-rule="evenodd" d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z" fill="#0c0f12" fill-rule="evenodd" />
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
+        </symbol>
+    </svg>
+
+    <script src="index.js" defer></script>
 </body>
+
 </html>
